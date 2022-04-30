@@ -1,0 +1,23 @@
+{
+  "name": "activity-together",
+  "version": "1.0.0",
+  "description": "create a discord activity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "register": "node registerSlash.js",
+    "clear": "node clearSlash.js"
+  },
+  "author": "XenonTheInertG",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "delay": "^5.0.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.24.0",
+    "discord-together": "^1.3.25",
+    "discord.js": "^13.3.1",
+    "figlet": "^1.5.2"
+  }
+}
